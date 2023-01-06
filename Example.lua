@@ -3,7 +3,7 @@ _G.LibrarySetting = {
 	Title = "Free Library", -- Description
     Color = Color3.fromRGB(155, 155, 155), -- Color UI
     Icon = "rbxassetid://11959681946", -- Icon hub
-    KeyBind = {Bind = Enum.KeyCode.RightControl}
+    KeyBind = {Bind = Enum.KeyCode.RightControl},
     Load = "https://raw.githubusercontent.com/ZoiIntra/LocalLib/main/-back-ups-for-libs/main/Local%2520v3" -- Do not change
 }
 
