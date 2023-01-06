@@ -15,41 +15,50 @@ _G.LibrarySetting = {
     KeyBind = {Bind = Enum.KeyCode.RightControl}
     Load = "https://raw.githubusercontent.com/ZoiIntra/LocalLib/main/-back-ups-for-libs/main/Local%2520v3" -- Do not change
 };
-loadstring(game:HttpGet((_G.LibrarySetting.Load)))() -- Do not change```
-
+loadstring(game:HttpGet((_G.LibrarySetting.Load)))() -- Do not change
+```
 # --- Window ---
+```
 local Window = _G.library() -- Creates the window
-
+```
 # --- Tap ---
+```
 local Tab = Window:Tab("Tap","7072717697") -- Creates the tab (You will put here your buttons,etc)
-
+```
 # --- Section ---
+```
 local Section = Tab:Section("Section 1","Left") -- Right / Left
-
+```
 # --- Lable ---
+```
 Section:Label("- Label -")
-
+```
 # --- Button ---
+```
 Section:Button("Button",function()
     print("Clicked Button!")
 end)
-
+```
 # --- Toggle ---
+```
 Section:Toggle("Toggle",false,function(v)
     print(v)
 end)
-
+```
 # --- Text Box ---
+```
 Section:Textbox("Text Box","Input?",function(b)
 	print(b)
 end)
-
+```
 # --- Slider ---
+```
 Section:Slider("Slider",1,10,1,function(n)
     print(n)
 end)
-
+```
 # --- Dropdown ---
+```
 Dropdown = {
     "A",
     "B",
@@ -58,5 +67,6 @@ Dropdown = {
 Section:Dropdown("Dropdown",Dropdown,{"Default"},function(d)
     print(d)
 end)
+```
 
 # [ Thank you for support ]
