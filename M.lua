@@ -74,7 +74,7 @@ dUICorner.Parent = dMain
 
 local dUIStroke = Instance.new("UIStroke")
 dUIStroke.Name = "DUIStroke"
-dUIStroke.Color = Color3.fromRGB(45, 45, 45)
+dUIStroke.Color = Color3.fromRGB(143, 0, 255)
 dUIStroke.Parent = dMain
 
 local dTopbar = Instance.new("Frame")
@@ -600,7 +600,7 @@ textLabel1.Parent = tabFrame
 
 local uIStroke = Instance.new("UIStroke")
 uIStroke.Name = "UIStroke"
-uIStroke.Color = Color3.fromRGB(68, 68, 68) -- 183, 248, 219
+uIStroke.Color = Color3.fromRGB(143, 0, 255)
 uIStroke.Transparency = 0.45
 uIStroke.Parent = tabFrame
 
@@ -730,7 +730,7 @@ end)
 
 local uIStroke3 = Instance.new("UIStroke")
 uIStroke3.Name = "UIStroke"
-uIStroke3.Color = Color3.fromRGB(52, 52, 52)
+uIStroke3.Color = Color3.fromRGB(143, 0, 255)
 uIStroke3.Parent = sectionFrame
 
 local uICorner7 = Instance.new("UICorner")
@@ -908,7 +908,7 @@ keybindButton.Parent = keybindFrame
 
 local keybindUIStroke = Instance.new("UIStroke")
 keybindUIStroke.Name = "KeybindUIStroke"
-keybindUIStroke.Color = Color3.fromRGB(84, 84, 84)
+keybindUIStroke.Color = Color3.fromRGB(143, 0, 255)
 keybindUIStroke.Parent = keybindFrame
 
 local TextBounds = keybindFrameText.TextBounds
@@ -1039,7 +1039,7 @@ inputUICorner.Parent = inputOuter
 
 local inputUIStroke = Instance.new("UIStroke")
 inputUIStroke.Name = "InputUIStroke"
-inputUIStroke.Color = Color3.fromRGB(84, 84, 84)
+inputUIStroke.Color = Color3.fromRGB(143, 0, 255)
 inputUIStroke.Parent = inputOuter
 
 local inputTextBox = Instance.new("TextBox")
@@ -1840,7 +1840,7 @@ frame2.Parent = tabContainer
 
 local uIStroke2 = Instance.new("UIStroke")
 uIStroke2.Name = "UIStroke"
-uIStroke2.Color = Color3.fromRGB(61, 61, 61)
+uIStroke2.Color = Color3.fromRGB(143, 0, 255)
 uIStroke2.Parent = main
 
 return window
